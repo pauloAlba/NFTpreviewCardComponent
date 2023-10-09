@@ -50,7 +50,7 @@ div:nth-child(1) p{
 }
 
 div > img{
-  height:250px;
+  height:300px;
   width: 100%;
   position: relative;
   align-self: center;
@@ -113,10 +113,10 @@ hr{
   gap: 0.6rem;
   padding: 0;
 }
-
-
 .perfil{
   width: 50px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
   object-fit: contain;
   align-self: center;
 }
@@ -126,6 +126,7 @@ section{
   align-items: center;
   gap: 1rem;
 }
+
 section p{
   font-size: 1.6rem;
 }
